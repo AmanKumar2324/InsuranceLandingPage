@@ -1,0 +1,77 @@
+.features-section {
+    background-color: white;
+  }
+  
+  .features-title {
+    font-size: 12px;
+    color: rgb(19, 143, 130);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .features-subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    // margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 200px;
+    margin: 0;
+  }
+  
+  .card img {
+    height: 60%;
+    align-items: center;
+    object-fit: cover;
+    justify-content: center ;
+    object-position: top;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    justify-content: left;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 0.875rem;
+    text-align: left;
+  }
+  
+  .social-icons {
+    justify-content: left;
+    margin-top: 0.5rem;
+  }
+  
+  .grid {
+    gap: 1rem;
+  }
+  .social-icons a {
+    cursor: pointer;
+}
+
+.services-footer-one
+{
+    padding-top: 20px;
+    font-size: 14px;
+    color: grey;
+}
+
+.services-footer-two{
+padding-bottom: 15px;
+    font-size: 14px;
+    color: grey;
+}

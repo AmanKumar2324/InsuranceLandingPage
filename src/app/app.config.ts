@@ -1,8 +1,14 @@
 import { ApplicationConfig } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { provideRouter, Routes } from '@angular/router';
+import { HomeViewComponent } from './components/home-view/home-view.component';
 
-import { routes } from './app.routes';
+const routes: Routes = [
+  { path: '', component: HomeViewComponent },
+  // other routes if needed
+];
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes)]
+  providers: [
+    provideRouter(routes)
+  ]
 };

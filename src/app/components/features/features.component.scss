@@ -1,0 +1,40 @@
+.features-section {
+    background-color: white;
+  }
+  
+  .features-title {
+    font-size: 12px;
+    color: rgb(19, 143, 130);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .features-subtitle {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    // margin-bottom: 2rem;
+  }
+  
+  .features-cards {
+    @apply flex flex-nowrap justify-center gap-6 mt-8;
+  }
+  
+  .feature-card {
+    @apply bg-white shadow-lg rounded-lg p-6 w-72 flex flex-col items-start;
+    padding: 1rem; // Ensuring even padding
+  }
+  
+  .feature-title {
+    @apply text-xl font-semibold mb-2;
+  }
+  
+  .feature-description {
+    @apply text-gray-600 text-left;
+  }
+  
+
+  .icon {
+    @apply mb-4 text-blue-600 text-4xl; // Tailwind classes for icons
+  }
+  
